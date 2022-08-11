@@ -56,7 +56,7 @@ header i {
 
 .search-input-form input {
   height: 50px;
-  width: 100%;
+  width: 90%;
   outline: none;
   border: none;
   background-color: #dbd0e3;
@@ -85,7 +85,7 @@ header i {
   list-style: none;
   padding: 8px 10px;
   display: none;
-  width: 100%;
+  width: 90%;
   cursor: default;
   border-radius: 3px;
 }
@@ -100,8 +100,10 @@ input::placeholder {
 }
 
 .images-section {
+  margin-top: 5rem;
   display: flex;
-  width: 80%;
+  flex-flow: wrap;
+  width: 100%;
   justify-content: center;
 }
 .image {
