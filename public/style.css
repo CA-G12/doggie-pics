@@ -1,6 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
 *{
     padding:0px;
     margin:0px;
     font-family: 'Hubballi', cursive;
 }
-@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+.images-section{
+    display: flex;
+    width:80%;
+    justify-content: center;
+}
+.image{
+    margin:1rem;
+    width:20rem;
+    height:20rem;
+    object-fit: cover;
+    background-color: rgb(146, 146, 146);
+}
