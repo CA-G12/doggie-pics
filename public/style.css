@@ -44,3 +44,64 @@ header {
       font-size: 1rem;
   }
 @import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+
+
+.wrapper { 
+  max-width : 600px ;
+  margin : 20px auto ;
+}
+
+.search-input-form{
+  background-color : #DBD0E3 ;
+  width: 100% ;
+  border-radius: 10px ;
+  position: relative; 
+}
+
+.search-input-form input {
+  height: 50px ;
+  width : 100% ;
+  outline: none; 
+  border: none; 
+  background-color : #DBD0E3 ;
+  border-radius: 10px ;
+  padding : 0 30px ;
+  font-size: 18px ;
+  box-shadow: 0px 0.5px 5px rgba(0,0,0,0.1);
+}  
+.search-input-form .icon {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  line-height: 55px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.search-input-form  .autocom-box {
+  /* padding: 5px 20px; */
+  overflow-y: auto;
+}
+
+.autocom-box li{
+  list-style: none;
+  padding: 8px 10px;
+  display: none;
+  width: 100%;
+  cursor: default;
+  border-radius: 3px;
+}
+.autocom-box li:hover {
+  background-color : #b09cbe ;
+}
+
+input::placeholder {
+  color: #7c7a7a;
+  opacity: 0.5;
+  /* font-family: 'Rubik Burned', cursive;  */
+  font-size: 16px;
+}
