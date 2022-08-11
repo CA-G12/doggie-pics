@@ -3,4 +3,44 @@
     margin:0px;
     font-family: 'Hubballi', cursive;
 }
+header {
+    background: rgba(255, 198, 112, 1);
+    color: black;
+    padding-top: 15px;
+    min-height: 90px;
+    }
+  header i {
+    font-size: 3rem;
+  }
+  .container{
+      padding-top: 20px;
+      padding-left: 30px;
+      padding-bottom: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      
+  }
+  .rightside{
+      width: 50%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+  }
+  .rightside a{
+      text-decoration: none;
+      color: black;
+  }
+  .leftside{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;  
+     
+  }
+  .leftside p{
+      font-weight: bold;
+      margin-left: 15px;
+      font-size: 1rem;
+  }
 @import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
