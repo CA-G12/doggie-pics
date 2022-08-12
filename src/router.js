@@ -23,7 +23,7 @@ const type = {
           })
 
       }
-      else if (endPoint.endsWith(".css") || endPoint.endsWith(".js") ){
+      else if (endPoint.endsWith(".css") || endPoint.endsWith(".js") || endPoint.endsWith(".ico") ){
           const filePath = path.join(__dirname,"..","public",endPoint);
           const extension = path.extname(filePath);
           fs.readFile(filePath,(err,file)=>{
