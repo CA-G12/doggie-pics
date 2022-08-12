@@ -78,13 +78,14 @@ header i {
   cursor: pointer;
 }
 .search-input-form .autocom-box {
+  padding : 0 20px ;
   overflow-y: auto;
 }
 
 .autocom-box li {
   list-style: none;
   padding: 8px 10px;
-  display: none;
+  /* display: none; */
   width: 90%;
   cursor: default;
   border-radius: 3px;
