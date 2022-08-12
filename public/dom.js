@@ -24,12 +24,15 @@ searchInput.addEventListener('keyup', (e) => {
   }else{
     autoComContainer.innerHTML = "" ;
   }
+  
+  // --------------- handling user choice (put it in search input value)  -----------
   autoComchoices.forEach((li)=>{
     li.addEventListener("click" ,(e)=>{
       searchInput.value = e.target.textContent;
       autoComContainer.innerHTML="";
     })
   });
+
+
 });
 
-// --------------- handling user choice (put it in search input value)  -----------
