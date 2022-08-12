@@ -48,6 +48,10 @@ const type = {
         })
 
       }
+      else {
+        res.writeHead(404,{"Content-Type" : "text/html"});
+        res.end("Not Found");
+      }
   }
 
   module.exports = router; 
