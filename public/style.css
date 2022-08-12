@@ -90,6 +90,7 @@ header i {
   cursor: default;
   border-radius: 3px;
   /* border-bottom: 0.5px solid #7c7a7a ; */
+  cursor: pointer;
   
 }
 .autocom-box li:hover {
