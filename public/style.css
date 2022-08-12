@@ -78,16 +78,19 @@ header i {
   cursor: pointer;
 }
 .search-input-form .autocom-box {
+  padding: 0 20px;
   overflow-y: auto;
 }
 
 .autocom-box li {
   list-style: none;
-  padding: 8px 10px;
-  display: none;
+  padding: 15px 10px;
+  /* display: none; */
   width: 90%;
   cursor: default;
   border-radius: 3px;
+  /* border-bottom: 0.5px solid #7c7a7a ; */
+  
 }
 .autocom-box li:hover {
   background-color: #b09cbe;
