@@ -35,7 +35,7 @@
 
     <section class="add-review-section">
       <h2>Add Your review </h2>
-      <form class="review-form" action="" method="post">
+      <form class="review-form" action="/create-reviews" method="post">
         <input class="reviewer-name" name="name" placeholder="Your Name">
         <textarea class="review-content" name="review" placeholder="Write a review"></textarea>
         <button>Add</button>
@@ -44,7 +44,7 @@
     <section  class="reviews-section">
       <h3>Reviews</h3>
       <div class="reviews">
-        <div class="review-contanier">
+        <!-- <div class="review-contanier">
           <div class="review-content">I like your project it's simply and functional</div>
           <div class="reviewer-name">mai mohammed</div>
         </div>
@@ -63,10 +63,13 @@
         <div class="review-contanier">
           <div class="review-content">I like your project it's simply and functional</div>
           <div class="reviewer-name">mai mohammed</div>
-        </div>
+        </div> -->
       </div>
     </section>
   </main>
+
+  <script src="./fetch.js"></script>
+  <script src="./handleReviews.js"></script>
 </body>
 
 </html>
