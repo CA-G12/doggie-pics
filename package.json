@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "start": "src/server.js",
+    "start": "./src/server.js",
     "test": "jest",
     "dev":"nodemon ./src/server.js"
   },
