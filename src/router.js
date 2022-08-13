@@ -17,7 +17,7 @@ const router = (req, res) => {
 
     indexHandler(res);
   } 
-  else if (endPoint.endsWith('.css') || endPoint.endsWith('.js')) {
+  else if (endPoint.endsWith('.css') || endPoint.endsWith('.js')|| endPoint.endsWith('.html')) {
     const filePath = path.join(__dirname, '..', 'public', endPoint);
     const extension = path.extname(filePath);
     fs.readFile(filePath, (err, file) => {
