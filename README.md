@@ -9,7 +9,7 @@ In this project we will be working on a dog pics app that supports autocomplete 
 
 ## ✧ Links
 
-- [heroku link](https://ca-g12.github.io/Quiz-App-TeamOne/)
+- [heroku link](https://doggy-breed.herokuapp.com/)
 - [Figma Design](<https://www.figma.com/file/3suG0keFcezPo595Kwae2p/Untitled?node-id=0%3A1>)
 
 ## ✧ How to install the project on your local machine.
