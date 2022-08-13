@@ -3,7 +3,7 @@ const path = require('path');
 const fs = require('fs');
 
 const homeHandler = (res) => {
-  const filePath = path.join(__dirname, '..', '..', 'public', 'index.html');
+  const filePath = path.join(__dirname, '..', 'public', 'index.html');
   fs.readFile(filePath, (err, file) => {
     if (err) {
       res.writeHead(500, { 'Content-Type': 'text/html' });

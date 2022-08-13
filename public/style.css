@@ -5,15 +5,18 @@
   margin: 0px;
   font-family: "Hubballi", cursive;
 }
+
 header {
   background: rgba(255, 198, 112, 1);
   color: black;
   padding-top: 15px;
   min-height: 90px;
 }
+
 header i {
   font-size: 3rem;
 }
+
 .container {
   padding-top: 20px;
   padding-left: 30px;
@@ -22,22 +25,26 @@ header i {
   flex-direction: row;
   justify-content: space-between;
 }
+
 .rightside {
   width: 50%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
+
 .rightside a {
   text-decoration: none;
   color: black;
 }
+
 .leftside {
   width: 50%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
+
 .leftside h2 {
   margin-left: 15px;
 }
@@ -65,6 +72,7 @@ header i {
   font-size: 18px;
   box-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.1);
 }
+
 .search-input-form .icon {
   position: absolute;
   right: 0px;
@@ -77,8 +85,9 @@ header i {
   border-radius: 10px;
   cursor: pointer;
 }
+
 .search-input-form .autocom-box {
-  padding : 0 20px ;
+  padding: 0 20px;
   overflow-y: auto;
 }
 
@@ -90,6 +99,7 @@ header i {
   cursor: default;
   border-radius: 3px;
 }
+
 .autocom-box li:hover {
   background-color: #b09cbe;
 }
@@ -107,10 +117,155 @@ input::placeholder {
   width: 100%;
   justify-content: center;
 }
+
 .image {
   margin: 1rem;
   width: 20rem;
   height: 20rem;
   object-fit: cover;
   background-color: #d9d9d9;
+}
+
+
+/* -------About us page styles ---------- */
+a {
+  text-decoration: none;
+  color: #292828;
+}
+
+.about-main {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  max-width: 1300px;
+  margin: 0 auto;
+  justify-content: space-betweens;
+  align-items: center;
+}
+
+.team-info {
+  margin-top: 100px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.team-info h1 {
+  font-size: 30px;
+}
+
+.team-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.member {
+  height: 40px;
+  border: 2px solid #7c7a7a;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #baaac6;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mem-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.github-account {
+  font-size: 14px;
+}
+
+.add-review-section {
+  padding-top : 20px ;
+  margin-top: 100px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review-form {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  margin: 20px auto 0 auto;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.review-form .reviewer-name {
+  width: 80%;
+  padding: 15px 20px;
+  border: 1px solid #7c7a7a;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.review-form .review-content {
+  padding: 10px 20px;
+  border: 1px solid #7c7a7a;
+  border-radius: 10px;
+  width: 80%;
+  height: 115px;
+  margin-bottom: 20px;
+
+}
+
+.review-form button {
+  width: 20%;
+  padding: 10px 20px;
+  border: 1px solid #7c7a7a;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.reviews-section{
+  margin-top: 40px;
+  padding: 50px;
+  border-top: 1px dashed #292828;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.reviews-section h3{
+  font-size: 20px;
+}
+.reviews {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.review-contanier {
+  margin: 20px ;
+  height: 40px;
+  border: 2px solid #7c7a7a;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #f2ce98;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.review-content{
+  font-weight: bold;
 }
